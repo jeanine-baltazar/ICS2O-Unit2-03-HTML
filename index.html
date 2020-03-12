@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+  <html lang="en-ca">
+    <head>
+      <meta charset="utf-8">
+      <meta name="description"content="Webpage using javascript!">
+      <meta name="keywords"content= "Hello, World!">
+      <meta name="author"content= "Jeanine Baltazar">
+      <meta name="viewport"content="width=device-width, initial-scale=1.0">
+      <title>Jeanine's Webpage</title>
+      <link rel="stylesheet" href="mystyle.css">
+    </head>
+    <body>
+      <h1>My Webpage</h1>
+      <p>This webpage includes my name and a button that makes "Hello, World!" appear in the alerts.</p>
+      <p>Jeanine Baltazar</p>
+      <button id="button">Click Me!</button>
+      <script>
+      document.getElementById("button").addEventListener("click", myfunction); 
+      function myfunction() {
+        alert("Hello World!");
+      }
+      </script>
+    </body>
+</html>
